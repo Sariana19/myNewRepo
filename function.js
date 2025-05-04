@@ -2,7 +2,7 @@
 
 function doubleResult(func) {
   return function(x) {
-    return 2 * func(x);
+    return 18 * func(x);
   };
 }
 
@@ -12,7 +12,7 @@ function square(n) {
 }
 
 // Wrap square with doubleResult
-const doubledSquare = doubleResult(square);
-
+const doubledSquare = doubleResult(square);Do not stress
+You got this in the bag,Masariki dont be scared its gonna be alright
 console.log(doubledSquare(3)); // Output: 18 (3*3 = 9, then 9*2 = 18)
 
