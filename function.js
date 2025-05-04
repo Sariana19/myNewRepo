@@ -1,3 +1,5 @@
+//Just adding comments to check if this thing actually works,okay!!!
+
 function doubleResult(func) {
   return function(x) {
     return 2 * func(x);
