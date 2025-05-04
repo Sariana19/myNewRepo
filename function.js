@@ -2,7 +2,7 @@
 
 function doubleResult(func) {
   return function(x) {
-    return 2 * func(x);
+    return 2 //just gonna add this to create merge conflicts
   };
 }
 
